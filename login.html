@@ -11,22 +11,20 @@
 
 <body>
 
-    <!-- pagina register.html -->
 
-    <form action="php/register.php" method="POST">
-        <h2>Registrati</h2>
+    <form action="php/login.php" method="POST">
+        <h2>Accedi</h2>
 
         <label for="username">Username</label>
         <input type="text" name="username" id="username" placeholder="inserisci il tuo username" required>
-
-        <label for="email">Email</label>
-        <input type="text" name="email" id="email" placeholder="inserisci la tua email" required>
 
         <label for="password">Password</label>
         <input type="text" name="password" id="password" placeholder="inserisci la tua password" required>
 
         <input type="submit" value="Invia">
-        <p> Hai già un account? Se sì inserisci le tue credenziali per accedere <a href="login.html"> Accedi</a></p>
+        <p> Non hai ancora un account? <a href="index.php"> Registrati</a></p>
+        
+
     </form>
 
 </body>
