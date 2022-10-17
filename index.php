@@ -13,7 +13,7 @@
 
     <!-- pagina register.html -->
 
-    <form action="php/register.php" method="POST">
+    <form action="./php/register.php" method="POST">
         <h2>Registrati</h2>
 
         <label for="username">Username</label>
